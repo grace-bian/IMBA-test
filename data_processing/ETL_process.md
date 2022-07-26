@@ -1,6 +1,13 @@
 # Part 1. Extract data to s3
 
+Create s3 bucket, upload Raw Data of IMBA.
+
 # Part 2. Using Athena to do auditing and ETL 
+
+
+This step used Athena SQL to auditing data and create a table which represents product features. 
+
+![athena](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/athena.png)
 
 
 
