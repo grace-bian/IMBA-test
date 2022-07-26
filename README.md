@@ -32,4 +32,4 @@
   - Online/Offline Recommandation
 
 ## 4.Solution design
-# IMBA-AWS
+![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/aws-v0-pipeline.png)
