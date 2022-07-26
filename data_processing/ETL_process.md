@@ -7,7 +7,7 @@ Create s3 bucket, upload Raw Data of IMBA.
 
 This step used Athena SQL to auditing data and create a table which represents product features. 
 
-![athena](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/athena.png)
+![athena](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v0/imgs/athena.png)
 
 
 
