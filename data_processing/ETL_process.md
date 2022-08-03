@@ -1,6 +1,6 @@
 # Data processing
 The processing was as following figure shown.
-![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/solution_design_aws3.0_pipeline.png)
+![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v1/imgs/solution_design_aws3.0_pipeline.png)
 
 # 1. Extract data to s3
 
