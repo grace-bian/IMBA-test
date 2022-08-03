@@ -6,7 +6,7 @@
 
 - Instacart is a grocery order and delivery app, which is similar to Coles or Woolworth order and delivery app in Australia. Over 33 million grocery orders from more than 200, 000 customers were provided by Instacart as open-sourced data. However, the salesman of Instacart recommends products in traditional ways or, that is to say, manually. They have not made good use of the huge amount of valuable transactional records yet. By taking advantage to analyze an ample amount of data, Instacart would predict well customer purchasing behaviour and pattern, which would strongly enhance their competitiveness.  
 
-![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/instacart-logo.jpeg =100x100)
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/instacart-logo.jpeg width=60% />
 
 ### 2. Objectives
 
