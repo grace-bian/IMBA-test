@@ -33,7 +33,7 @@ Glue version:
 ``` 
 Spark 3.1 python3 (glue version 3.0 )
 ``` 
-Glue Job python code is in the same folder named 'data processing'. Please see the file create_results(csv).py.
+Glue Job python code is in the folder named 'scripts'. Please see the file create_results(csv).py.
 
 The following picture shows a part of the reasult data.
 ![output](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v0/imgs/reasults.png)
