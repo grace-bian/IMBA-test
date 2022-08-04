@@ -36,5 +36,17 @@ Spark 3.1 python3 (glue version 3.0 )
 ``` 
 Glue Job python code is in the folder named 'scripts'. Please see the file create_results(csv).py.
 
+# 5. Check whether run successfully automatically
+As the we set UTC23:35, the data pipeline will run automatically, from extracting raw data to transformation to generated the final data. 
+Firstly, after the data was pull into S3 bucket, the Glue Crawler would scan the raw data folder regularly, such as scanning per day here. 
+Then, at UTC23:35, EventBridge trigger lambda and start to run pipelin automatically.
+
+From the glue job monitor, we could know when and how the jobs was run.
+In the experiment, we can see the first job started from Sydney time 9:35, which is UTC23:35, and the last job end at Sydney time 10:08.
+<div align="center">
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/jobMonitor.png width=40% />
+</div>
+
+We can also see the results data in the s3 bucket was generated successfully.
 The following picture shows a part of the reasult data.
 ![output](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v0/imgs/reasults.png)
