@@ -44,7 +44,7 @@ Then, at UTC23:35, EventBridge trigger lambda and start to run pipelin automatic
 From the glue job monitor, we could know when and how the jobs was run.
 In the experiment, we can see the first job started from Sydney time 9:35, which is UTC23:35, and the last job end at Sydney time 10:08.
 <div align="center">
-<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/jobMonitor.png width=40% />
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/jobMonitor.png width=80% />
 </div>
 
 We can also see the results data in the s3 bucket was generated successfully.
