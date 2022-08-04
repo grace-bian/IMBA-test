@@ -1,6 +1,6 @@
 # Data processing
 The processing was as following figure shown.
-![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v1/imgs/solution_design_aws2.0.drawio.png)
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/solution_design_aws2.0.drawio.png  width = 80% />
 
 # 1. Extract data to s3
 
@@ -14,9 +14,10 @@ Check the data quality of raw data from the aspects of integrity, consistency an
 
 # 3. Using EventBridge, Lambda, Glue job to schedule and do ETL 
 
-EventBridge schedule datapipeline, here, run data pipeline per 30 days.
-![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v1/imgs/eventbridge_scheduler.png)
-
+EventBridge schedule datapipeline, here, run data pipeline per day UTC23:35.
+<div align="center">
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/eventbridge_scheduler.png width=40% />
+</div>
 In the project of IMBA, following features transformations were completed by Glue Job. Please see GLue Job codes in scripts/glue_job.
 
 ## step 1. create features - order_product_prior 
