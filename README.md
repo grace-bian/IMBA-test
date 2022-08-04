@@ -35,4 +35,4 @@
 
 ## 4.Solution design
 
-![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/solution_design_aws2.0.drawio(3).png)
+![Solution design](https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/solution_design_aws2.0.drawio.png)
