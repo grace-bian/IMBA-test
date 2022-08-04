@@ -1,6 +1,6 @@
 # Data processing
 The processing was as follows in the figure shown.
-<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/solution_design_aws2.0.drawio.png  width = 80% />
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/solution_design_aws2.0.drawio.png width = 80% />
 
 # 1. Extract data to s3
 
@@ -16,7 +16,7 @@ Check the data quality of raw data from the aspects of integrity, consistency an
 
 EventBridge schedule data pipeline, here, run data pipeline per day UTC23:35.
 <div align="center">
-<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/aws-v3/imgs/eventbridge_scheduler.png width=40% />
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/eventbridge_scheduler.png width=20% />
 </div>
 In the project of IMBA, the following features transformations were completed by Glue Job. Please see GLue Job codes in scripts/glue_job.
 
