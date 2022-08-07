@@ -36,7 +36,7 @@ Spark 3.1 python3 (glue version 3.0 )
 ``` 
 Glue Job python code is in the folder named 'scripts'. Please see the file create_results(csv).py.
 
-# 5. Experiment - Check whether run successfully automatically
+# 5. Experiment - Check whether run automatically
 As we set UTC23:00 to start (you can also set it at 3:00 am in producing environment. Here the time is convenient for experiment observation.), the data pipeline will run automatically, from extracting raw data to transformation to generate the final data. 
 
 After the data was pushed into S3 bucket, the Glue Crawler would scan the raw data folder regularly, such as scanning at 23:00 per day here. 
