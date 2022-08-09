@@ -1,6 +1,6 @@
 # Data processing
 The processing was as follows in the figure shown.
-<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/main/imgs/solution_design_aws2.0.drawio.png width = 80% />
+<img src=https://github.com/LeoLee-Xiaohu/IMBA-AWS/blob/v4/imgs/solution_design_aws4.0.drawio.png width = 80% />
 
 # 1. Extract data to s3
 
