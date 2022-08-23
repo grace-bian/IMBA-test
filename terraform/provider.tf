@@ -1,11 +1,11 @@
 terraform {
     backend "s3" {
-      bucket         = var.terraform_state_bucket
+      bucket         = "imba-terraform-state-backend"
       key            = "terraform.tfstate"
       region         = "ap-southeast-2"
-      dynamodb_table = var.terraform_state_dynamdb
+      dynamodb_table = "terraform_state"
     }
-
+}
   required_providers {
     aws = {
       source  = "hashicorp/aws"
