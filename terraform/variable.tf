@@ -11,11 +11,11 @@ variable "data_bucket_name" {
 
 variable "terraform_state_bucket" {
 
-   default = "imba-terraform-state-backend"
-  
+  default = "imba-terraform-state-backend"
+
 }
 
 variable "terraform_state_dynamdb" {
   default = "terraform_state"
-  
+
 }
